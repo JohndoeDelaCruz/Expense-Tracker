@@ -17,6 +17,7 @@
                     <div class="flex items-center">
                         <h1 class="text-2xl font-bold text-white">Expense Tracker</h1>
                     </div>
+
                     <div class="flex items-center space-x-4">
                         @auth
                             <a href="{{ route('dashboard') }}" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Dashboard</a>
@@ -44,7 +45,7 @@
                 </div>
 
                 <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in-up">
-                    <span class="animate-slide-in-left">Take Control of Your</span><br>
+                    <span class="animate-slide-in-left">Manage your</span><br>
                     <span class="text-gray-300 italic animate-slide-in-right animation-delay-300">Finances</span>
                 </h1>
                 <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-500">
